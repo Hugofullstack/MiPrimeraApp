@@ -1,4 +1,6 @@
 <resources>
+
+    <!--IMC APP-->
     <string name="app_name">MiPrimeraApp</string>
     <string name="pulsame">Pulsame</string>
     <string name="escribe_tu_nombre">Escribe tu nombre</string>
@@ -31,6 +33,28 @@
     <string name="description_obesidad">Estas MUY por encima de lo óptimo para tu peso y altura</string>
     <string name="IMCApp">IMCApp</string>
     <string name="desliza">desliza</string>
+
+    <!--TODOApp-->
+    <string name="TODOApp">TODO APP</string>
+    <string name="todo_title">Bienvenido</string>
+    <string name="todo_categories">Categorías</string>
+    <string name="todo_tasks">Tareas</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="todo_dialog_add_task">Añade La Tarea</string>
+    <string name="todo_dialog_category_business">Negocios</string>
+    <string name="todo_dialog_category_personal">Personal</string>
+    <string name="todo_dialog_category_other">Otros</string>
+    <string name="todo_dialog_add_task_button">Crear Tarea</string>
+
+    <!--SuperHeroApp-->
+    <string name="SuperHeroApp">Super Hero APP</string>
+    <string name="imagensuperheroe">imagensuperheroe</string>
+    <string name="intelligence">Intelligence</string>
+    <string name="strength">Strength</string>
+    <string name="speed">Speed</string>
+    <string name="durability">Durability</string>
+    <string name="power">Power</string>
+    <string name="combat">Combat</string>
 
 
 </resources>

@@ -6,7 +6,8 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.miprimeraapp.firstapp.FirstAppActivity
 import com.example.miprimeraapp.imccalculator.ImcCalculatorActivity
-
+import com.example.miprimeraapp.superheroapp.SuperHeroListActivity
+import com.example.miprimeraapp.todoapp.TodoActivity
 
 
 class MenuActivity : AppCompatActivity() {
@@ -15,9 +16,18 @@ class MenuActivity : AppCompatActivity() {
         setContentView(R.layout.activity_menu)
         val btnSaludApp = findViewById<Button>(R.id.btnSaludApp)
         val btnImcApp = findViewById<Button>(R.id.btnIMCApp)
+        val btnTODO = findViewById<Button>(R.id.btnTODO)
+        val btnSuperHero = findViewById<Button>(R.id.btnSuperHero)
 
         btnSaludApp.setOnClickListener { navigateToSaludApp() }
         btnImcApp.setOnClickListener { navigateToImcApp() }
+        btnTODO.setOnClickListener { navigateToTodoApp() }
+        btnSuperHero.setOnClickListener { navigateToSuperHeroApp() }
+    }
+
+    private fun navigateToTodoApp() {
+        val intent = Intent(this, TodoActivity::class.java)
+        startActivity(intent)
     }
 
     private fun navigateToImcApp() {
@@ -28,6 +38,12 @@ class MenuActivity : AppCompatActivity() {
     private fun navigateToSaludApp() {
 
         val intent = Intent(this, FirstAppActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun navigateToSuperHeroApp(){
+
+        val intent = Intent(this, SuperHeroListActivity::class.java)
         startActivity(intent)
     }
 

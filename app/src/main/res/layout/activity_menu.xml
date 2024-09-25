@@ -19,4 +19,17 @@
         android:layout_height="wrap_content"
         android:text="@string/IMCApp" />
 
+    <Button
+        android:id="@+id/btnTODO"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/TODOApp" />
+
+    <Button
+        android:id="@+id/btnSuperHero"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/SuperHeroApp" />
+
+
 </LinearLayout>
