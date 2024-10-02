@@ -5,31 +5,53 @@
     android:layout_height="match_parent"
     android:layout_margin="16dp"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".MenuActivity">
 
     <Button
         android:id="@+id/btnSaludApp"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
+        android:background="@color/todo_background_todo_app"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:text="@string/SaludApp" />
 
     <Button
         android:id="@+id/btnIMCApp"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
+        android:background="@color/todo_background_todo_app"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:text="@string/IMCApp" />
 
     <Button
         android:id="@+id/btnTODO"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
+        android:background="@color/todo_background_todo_app"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:text="@string/TODOApp" />
 
     <Button
         android:id="@+id/btnSuperHero"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
+        android:background="@color/todo_background_todo_app"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:text="@string/SuperHeroApp" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="320dp"
+        android:background="@color/todo_background_todo_app"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="@string/Settings" />
 
 
 </LinearLayout>

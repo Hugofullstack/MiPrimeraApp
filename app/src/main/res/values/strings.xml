@@ -55,6 +55,16 @@
     <string name="durability">Durability</string>
     <string name="power">Power</string>
     <string name="combat">Combat</string>
+    <string name="Settings">Configuraciones</string>
+    <string name="dark_mode">Modo oscuro</string>
+    <string name="activa_el_modo_oscuro_para_un_cambio_visual">Activa el modo oscuro para un cambio visual</string>
+    <string name="icono_dark">Icono_dark</string>
+    <string name="active_bluetooth">Activar Bluetooth</string>
+    <string name="conecta_perifericos_sin_cables">Conecta perifericos sin cables</string>
+    <string name="icono_de_bluetooth">icono de bluetooth</string>
+    <string name="icono_de_volumen">icono_de_volumen</string>
+    <string name="vibrar_en_las_llamadas">Vibrar en las llamadas</string>
+    <string name="subir_el_volumen">Subir el volumen</string>
 
 
 </resources>

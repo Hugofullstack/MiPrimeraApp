@@ -44,6 +44,14 @@ dependencies {
 
     //Picasso
     implementation ("com.squareup.picasso:picasso:2.8")
+    implementation("androidx.activity:activity:1.9.2")
+    implementation("androidx.datastore:datastore-core-android:1.1.1")
+    implementation("androidx.datastore:datastore-preferences-core-jvm:1.1.1")
     testImplementation("junit:junit:4.13.2")
+
+    //DataStore
+
+
+    implementation ("androidx.datastore:datastore-preferences:1.0.0-alpha08")
 
 }
